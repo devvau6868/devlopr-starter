@@ -1,0 +1,50 @@
+title: John Doe # the title of your blog
+
+subtitle: Full Stack Web Developer # subtitle of your blog
+
+description: >- # this means to ignore newlines until "baseurl:"
+  Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
+
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+
+# All the images can be found at - /_site/assets/img/
+
+author_logo: profile.png  # your profile image 
+
+disqus_shortname: your-disqus-username   #for comments using disqus
+
+# Author details
+
+author: John Doe
+author_bio: Hello, my name is John Doe.I am an award winning Full Stack Web Developer and UI/UX Javascript specialist.
+author_email: "john@devlopr.com"
+author_location: India
+author_website_url: "https://johndoe.com"
+
+# social links 
+twitter_username: yourusername
+github_username:  yourusername
+facebook_username: yourusername
+linkedin_username: yourusername
+behance_username: yourusername
+instagram_username: yourusername
+medium_username: yourusername 
+telegram_username: yourusername
+dribbble_username: yourusername 
+flickr_username: yourusername
+
+# important to use devlopr theme 
+theme: devlopr
+
+exclude:
+  - README.md
+  - Rakefile
+  - Gemfile
+  - Gemfile.lock
+  - changelog.md
+  - "*.Rmd"
+  - vendor
+  - .travis.yml
